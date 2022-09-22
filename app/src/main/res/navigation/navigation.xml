@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menuProfile">
+    <!-- id must much with the ones in the navigation_menu.xml-->
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="com.example.report_form.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuAdd"
+        android:name="com.example.report_form.add_Teacher_Pupil"
+        android:label="Add TeacherPupil"
+        tools:layout="@layout/fragment_add__teacher__pupil" />
+
+    <fragment
+        android:id="@+id/menuRemove"
+        android:name="com.example.report_form.remove_Teacher_Pupil"
+        android:label="Add Teacher Pupil"
+        tools:layout="@layout/fragment_remove__teacher__pupil" />
+    <fragment
+        android:id="@+id/menuRolls"
+        android:name="com.example.report_form.assignRolls"
+        android:label="Assign Rolls"
+        tools:layout="@layout/fragment_assign_rolls" />
+    <fragment
+        android:id="@+id/menuReport"
+        android:name="com.example.report_form.generate_Report"
+        android:label="Generate Report"
+        tools:layout="@layout/fragment_generate__report" />
+
+
+    <fragment
+        android:id="@+id/menuSettings"
+        android:name="com.example.report_form.settings"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/menuHelp"
+        android:name="com.example.report_form.help"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/menuAdd"
+        android:icon="@drawable/add"
+        android:title="Add Teacher/Pupil" />
+
+    <item
+        android:id="@+id/menuRemove"
+        android:icon="@drawable/remove"
+        android:title="Remove Teacher/Pupil" />
+
+    <item
+        android:id="@+id/menuRolls"
+        android:icon="@drawable/assign_report"
+        android:title="Assign Rolls" />
+
+    <item
+        android:id="@+id/menuReport"
+        android:icon="@drawable/graph_report"
+        android:title="Generate Report" />
+
+    <item
+        android:title="Settings">
+
+       <menu>
+
+           <item
+               android:id="@+id/menuSettings"
+               android:icon="@drawable/settings"
+               android:title="Settings" />
+
+           <item
+               android:id="@+id/menuHelp"
+               android:icon="@drawable/help"
+               android:title="Help" />
+       </menu>
+
+
+
+
+    </item>
+
+
+<item
+    android:title="Follow Us">
+
+    <menu>
+
+        <item
+            android:id="@+id/menuFacebook"
+            android:icon="@drawable/fb"
+            android:title="Like us on facebook" />
+
+        <item
+            android:id="@+id/menuTwitter"
+            android:icon="@drawable/twitter"
+            android:title="follow Us on twitter" />
+
+
+
+    </menu>
+
+
+
+
+
+</item>
+
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        />
+
+
+
+
+</menu>
