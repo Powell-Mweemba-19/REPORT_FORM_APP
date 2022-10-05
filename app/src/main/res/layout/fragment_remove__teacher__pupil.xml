@@ -3,13 +3,136 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     tools:context=".remove_Teacher_Pupil">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+        <!-- layout for position-->
+
+
+        <com.google.android.material.textfield.TextInputLayout
+           android:id="@+id/choosePro"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_margin="50dp"
+            android:hint="Choose Profession"
+            android:textColorHint="@color/black"
+
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            >
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompletePro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:textColor="@color/black"
+
+                />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+<!--
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="150dp">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="ID"
+              android:textSize="16dp"
+              android:textColor="@color/black"
+
+              android:layout_marginLeft="20dp">
+
+          </TextView>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Powell Mweemba"
+              android:textColor="@color/black"
+              android:layout_marginLeft="20dp"
+              android:layout_centerHorizontal="true"/>
+
+
+              <Button
+                  android:layout_width="50dp"
+                  android:layout_height="wrap_content"
+                  android:text="-"
+                  android:textSize="20dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="20dp"
+                  android:backgroundTint="#03DAC5"/>+
+      </RelativeLayout>
+  </ScrollView>
+
+-->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Remove Pupil"
-        android:layout_gravity="center"
-        android:textSize="20sp"/>
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textFontWeight="1000"/>
+
+
+            <TextView
+                android:id="@+id/fullNamr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Powell Mweemba"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:textFontWeight="1000"/>
+
+            <Button
+                android:id="@+id/removeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove"
+                android:layout_alignParentEnd="true"
+                android:textSize="16dp"
+                android:backgroundTint="#03DAC5"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
 
 </FrameLayout>

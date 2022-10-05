@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_terms"
+    app:startDestination="@id/menuterm1">
+
+    <fragment
+        android:id="@+id/menuterm1"
+        android:name="com.example.report_form.term1"
+        android:label="fragment_term1"
+        tools:layout="@layout/fragment_term1" />
+    <fragment
+        android:id="@+id/menuterm2"
+        android:name="com.example.report_form.term2"
+        android:label="fragment_term2"
+        tools:layout="@layout/fragment_term2" />
+    <fragment
+        android:id="@+id/menuterm3"
+        android:name="com.example.report_form.term3"
+        android:label="fragment_term3"
+        tools:layout="@layout/fragment_term3" />
+</navigation>

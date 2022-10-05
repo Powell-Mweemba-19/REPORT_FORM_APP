@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".term1_teacher">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:id="@+id/enterResults"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Results"
+            android:textStyle="bold"
+            android:layout_alignParentTop="false"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_margin="50dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonTerm1Teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#00FF00"
+            android:layout_below="@id/enterResults"
+            android:text="Term 1"></com.google.android.material.button.MaterialButton>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonTerm2Teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonTerm1Teacher"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#0000FF"
+            android:text="Term 2"></com.google.android.material.button.MaterialButton>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonTerm3Teacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/buttonTerm2Teacher"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#FF0000"
+            android:text="Term 3"></com.google.android.material.button.MaterialButton>
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_terms_teacher"
+    app:startDestination="@id/menuterm1teacher">
+    <fragment
+        android:id="@+id/menuterm1teacher"
+        android:name="com.example.report_form.term1_teacher"
+        android:label="fragment_term1_teacher"
+        tools:layout="@layout/fragment_term1_teacher" />
+    <fragment
+        android:id="@+id/menuterm2teacher"
+        android:name="com.example.report_form.term2_teacher"
+        android:label="fragment_term2_teacher"
+        tools:layout="@layout/fragment_term2_teacher" />
+    <fragment
+        android:id="@+id/menuterm3teacher"
+        android:name="com.example.report_form.term3_teacher"
+        android:label="fragment_term3_teacher"
+        tools:layout="@layout/fragment_term3_teacher" />
+</navigation>

@@ -8,4 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="creamWhite">#275b83</color>
+
+    <!--gradient-->
+
+    <color name="gradientStart">#b211eb</color>
+    <color name="gradientCenter">#7f24d9</color>
+    <color name="gradientEnd">#313fbc</color>
 </resources>

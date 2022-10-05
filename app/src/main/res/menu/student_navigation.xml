@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/menuViewResults"
+        android:icon="@drawable/remove"
+        android:title="View Results" >
+
+
+        <menu>
+
+            <item
+                android:id="@+id/menuterm1"
+                android:title="Term 1" />
+
+            <item
+                android:id="@+id/menuterm2"
+                android:title="Term 2" />
+
+
+            <item
+                android:id="@+id/menuterm3"
+                android:title="Term 3" />
+
+        </menu>
+    </item>
+
+
+
+    <item
+        android:title="Settings">
+
+        <menu>
+
+            <item
+                android:id="@+id/menuSettingsStudenr"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/menuHelpStudent"
+                android:icon="@drawable/help"
+                android:title="Help" />
+        </menu>
+
+
+
+
+    </item>
+
+
+    <item
+        android:title="Follow Us">
+
+        <menu>
+
+            <item
+                android:id="@+id/menuFacebookStudent"
+                android:icon="@drawable/fb"
+                android:title="Like us on facebook" />
+
+            <item
+                android:id="@+id/menuTwitterStudent"
+                android:icon="@drawable/twitter"
+                android:title="follow Us on twitter" />
+
+
+
+        </menu>
+
+
+
+
+
+    </item>
+
+
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        />
+
+</menu>
