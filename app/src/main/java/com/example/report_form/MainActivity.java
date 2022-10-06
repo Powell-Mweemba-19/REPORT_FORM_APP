@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 loginB.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
-        Intent intent = new Intent(view.getContext(),Report_card.class);
+        Intent intent = new Intent(view.getContext(),Report_Dashboard.class);
         startActivity(intent);
     }
 });

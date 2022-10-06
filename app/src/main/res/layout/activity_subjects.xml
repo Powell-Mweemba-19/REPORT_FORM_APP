@@ -54,8 +54,8 @@
 
     <Button
         android:id="@+id/math"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
@@ -68,8 +68,8 @@
 
     <Button
         android:id="@+id/english"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/math"
         android:layout_alignParentRight="true"
         android:layout_marginStart="20dp"
@@ -83,8 +83,8 @@
 
     <Button
         android:id="@+id/science"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/math"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -96,8 +96,8 @@
 
     <Button
         android:id="@+id/socialScience"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/english"
         android:layout_alignParentRight="true"
         android:layout_marginStart="20dp"
@@ -110,8 +110,8 @@
 
 
     <Button
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/science"
         android:layout_margin="20dp"
         android:text="@string/business_studies"
@@ -122,8 +122,8 @@
 
     <Button
         android:id="@+id/computerStudies"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/socialScience"
         android:layout_alignParentRight="true"
         android:layout_marginStart="20dp"
@@ -137,8 +137,8 @@
 
     <Button
         android:id="@+id/religious"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/computerStudies"
         android:layout_alignParentRight="true"
         android:layout_marginStart="20dp"
@@ -153,8 +153,8 @@
 
     <Button
         android:id="@+id/music"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/computerStudies"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -167,8 +167,8 @@
 
     <Button
         android:id="@+id/french"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/music"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -181,8 +181,8 @@
 
     <Button
         android:id="@+id/agriculturalScience"
-        android:layout_width="180dp"
-        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_below="@id/religious"
         android:layout_alignParentRight="true"
         android:layout_marginStart="20dp"
