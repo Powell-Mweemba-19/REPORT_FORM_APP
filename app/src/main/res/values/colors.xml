@@ -11,7 +11,8 @@
 
     <!--gradient-->
 
-    <color name="gradientStart">#b211eb</color>
-    <color name="gradientCenter">#7f24d9</color>
-    <color name="gradientEnd">#313fbc</color>
+    <color name="gradientStart">#344BC5</color>
+    <color name="gradientCenter">#7B78C9</color>
+    <color name="gradientEnd">#C6A5CF</color>
+
 </resources>
