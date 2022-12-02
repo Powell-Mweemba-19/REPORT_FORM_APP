@@ -1,5 +1,6 @@
 package com.example.report_form;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -23,14 +24,20 @@ public class term1 extends Fragment {
 
         //term 1 link to subject activity
 
-        Button term1 = view.findViewById(R.id.buttonTerm1Teacher);
+
+
+        Button term1 = view.findViewById(R.id.buttonTerm1);
 
         term1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
+                Intent intent = new Intent(view.getContext(), Report_card.class);
+                startActivity(intent);
             }
         });
+
+
         return view;
     }
 }

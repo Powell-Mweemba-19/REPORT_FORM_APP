@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432032442640",
+    "project_id": "report-form-98edc",
+    "storage_bucket": "report-form-98edc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432032442640:android:5102ee867502bb6d365d95",
+        "android_client_info": {
+          "package_name": "com.example.report_form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432032442640-mkfj0p7tpuh2lflm3ett01joda2tb5f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx5fznFcK9PWVQP95l_7-aH12_RYXU4AA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432032442640-mkfj0p7tpuh2lflm3ett01joda2tb5f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

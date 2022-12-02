@@ -73,7 +73,7 @@ public class term1_teacher extends Fragment {
             public void onClick(View view) {
 
 
-                Intent intent = new Intent(view.getContext(),Subjects.class);
+                Intent intent = new Intent(view.getContext(),Report_Dashboard.class);
                 startActivity(intent);
             }
         });
@@ -86,7 +86,7 @@ public class term1_teacher extends Fragment {
             public void onClick(View view) {
 
 
-                Intent intent = new Intent(view.getContext(),Subjects.class);
+                Intent intent = new Intent(view.getContext(),Report_Dashboard.class);
                 startActivity(intent);
             }
         });
@@ -101,7 +101,7 @@ public class term1_teacher extends Fragment {
             public void onClick(View view) {
 
 
-                Intent intent = new Intent(view.getContext(),Subjects.class);
+                Intent intent = new Intent(view.getContext(),Report_Dashboard.class);
                 startActivity(intent);
             }
         });

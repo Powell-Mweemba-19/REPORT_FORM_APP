@@ -51,7 +51,7 @@
 
     <EditText
 
-        android:id="@+id/editText"
+        android:id="@+id/getNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button_name"
@@ -61,17 +61,28 @@
         android:minHeight="48dp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button_class"
+        android:id="@+id/button_sit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/button_name"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="20dp"
         android:background="@null"
-        android:text="ROOM NO:"
+        android:text="IDNO:"
         android:textColor="#FF7D18E1"
 
         android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_sit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#03DAC5"
+        android:text="Display Results"></androidx.appcompat.widget.AppCompatButton>
 
     <EditText
 
@@ -88,7 +99,7 @@
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editText">
+        android:layout_below="@id/searchButton">
     <TableLayout
         android:id="@+id/header_title"
         android:layout_width="match_parent"
@@ -123,23 +134,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Marks"
+                android:text="Marks Scored"
                 android:textStyle="bold"
+                android:textAlignment="center"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Score"
-                android:textStyle="bold"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Comment"
-                android:textStyle="bold"/>
         </TableRow>
         <TableRow android:background="#FFFF" android:padding="5dp">
             <TextView
@@ -153,20 +153,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/math_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
+                android:textAlignment="center"
+                 />
 
-                android:id="@+id/math_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
         </TableRow>
         <TableRow android:background="#F0F7F7" android:padding="5dp">
             <TextView
@@ -179,19 +168,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/english_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/english_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
+                android:textAlignment="center"
+                />
+
 
         </TableRow>
         <TableRow android:background="#FFFF" android:padding="5dp">
@@ -205,18 +184,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/science_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/science_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:textAlignment="center"
                 android:text="" />
 
         </TableRow>
@@ -232,51 +200,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/social_science_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/social_science_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
+                android:textAlignment="center"
+                />
+
 
         </TableRow>
+
+
+
 
         <TableRow android:background="#FFFF" android:padding="5dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Business Studies" />
-            <TextView
-                android:id="@+id/business_studies_marks"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/business_studies_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/business_studies_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-
-        </TableRow>
-
-
-        <TableRow android:background="#F0F7F7" android:padding="5dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -287,109 +220,73 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/computer_studies_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/computer_studies_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
+                android:textAlignment="center"
+                />
+
 
         </TableRow>
 
-
-
-        <TableRow android:background="#FFFF" android:padding="5dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Religious Education " />
-            <TextView
-                android:id="@+id/religious_education_marks"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/religious_education_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/religious_education_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-
-        </TableRow>
-
-
+        <TableRow
+            android:background="#03DAC5"
+            android:padding="10dp"
+            ></TableRow>
 
         <TableRow android:background="#F0F7F7" android:padding="5dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="French" />
+                android:text="Comment" />
             <TextView
-                android:id="@+id/french_marks"
+                android:id="@+id/comment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/french_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/french_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
+                android:textAlignment="center"
+                />
+
 
         </TableRow>
-
-
 
         <TableRow android:background="#FFFF" android:padding="5dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Agriculture Studies" />
+                android:text="Overall Percentage" />
             <TextView
-                android:id="@+id/agriculture_studies_marks"
+                android:id="@+id/percentage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/agriculture_studies_score"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
-            <TextView
-                android:id="@+id/agriculture_tudies_comment"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="" />
+                android:textAlignment="center"
+                />
+
 
         </TableRow>
 
+
+
+
+
+       <!-- <TableRow android:background="#F0F7F7" android:padding="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Subject Passed" />
+            <TextView
+                android:id="@+id/passedSubject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                />
+
+
+        </TableRow>
+-->
 
         <TableRow
             android:background="#03DAC5"
@@ -400,16 +297,14 @@
     </ScrollView>
 
 
-    <androidx.appcompat.widget.AppCompatButton
+  <!--  <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/scrollView"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
         android:background="#03DAC5"
         android:text="Save"></androidx.appcompat.widget.AppCompatButton>
-</RelativeLayout>
+-->
+#</RelativeLayout>

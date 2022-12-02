@@ -30,7 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Mathematics"
+            android:text=""
             android:textColor="#FF7D18E1"
             android:textSize="20dp"
             android:textStyle="bold" />
@@ -44,7 +44,297 @@
 
     <!-- scroll view table-->
 
-    <ScrollView
+    <RelativeLayout
+        android:id="@+id/rlayout"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layoutToolBar"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingBottom="-100dp">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Student Name *"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="Enter Student Name"
+                        android:inputType="text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Parents Email *"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/emailR"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="Enter Email"
+                        android:inputType="text" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="ID Number "
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/seatno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:ems="10"
+                        android:hint="Enter Seat Number" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Mathematics"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <EditText
+                        android:id="@+id/subject1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="Enter Marks Scored"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="English"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/subject2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="Enter Marks scored"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Science"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/subject3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="Enter Marks Scored"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Computer Science"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/subject4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="Enter  Marks Scored"
+                        android:inputType="number" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Social Science"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/subject5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="Enter  Marks Scored"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Overall  percent"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <EditText
+                            android:id="@+id/percentage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:backgroundTint="#9A000000"
+                            android:hint="Percentage"
+                            android:inputType="number" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/cal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/scrollView"
+                            android:layout_centerHorizontal="true"
+
+
+                            android:layout_gravity="center"
+                            android:background="#03DAC5"
+                            android:text="Calculate"></androidx.appcompat.widget.AppCompatButton>
+
+                    </LinearLayout>
+
+                   <!-- <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Subject Passed"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/passedSubjectTeacher"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="Subject Passed"
+                        android:inputType="text" />
+-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:text="Comment"
+                        android:textColor="#7D18E1"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:backgroundTint="#9A000000"
+                        android:hint="comment"
+                        android:inputType="text" />
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/Upload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/scrollView"
+                        android:layout_gravity="center"
+                        android:background="#03DAC5"
+                        android:text="Upload"></androidx.appcompat.widget.AppCompatButton>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:background="@color/white"/>
+
+
+    </RelativeLayout>
+
+ <!--   <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -148,7 +438,7 @@
                     android:textAlignment="center"
                     android:text="Good" />
             </TableRow>
-         <!--   <TableRow android:background="#F0F7F7" android:padding="5dp">
+          <TableRow android:background="#F0F7F7" android:padding="5dp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -375,22 +665,11 @@
                 android:background="#03DAC5"
                 android:padding="10dp"
                 ></TableRow>
-     -->
+
         </TableLayout>
     </ScrollView>
+-->
 
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/Upload"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/scrollView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="#03DAC5"
-        android:text="Upload"></androidx.appcompat.widget.AppCompatButton>
 </RelativeLayout>
 

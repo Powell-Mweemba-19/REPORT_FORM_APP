@@ -5,6 +5,7 @@
     android:id="@+id/teacherLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
     tools:context=".dashboard_teacher">
 
 
@@ -22,7 +23,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:padding="15dp"
-            android:background="#6A04DF"
+
             app:layout_constraintTop_toTopOf="parent"
             >
 
@@ -41,7 +42,7 @@
         <!--bottom bars-->
 
 
-        <LinearLayout
+    <!--    <LinearLayout
             android:id="@+id/bottomNav"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -83,7 +84,7 @@
                 android:src="@drawable/graph_report" />
         </LinearLayout>
 
-
+-->
 
         <fragment
             android:layout_width="match_parent"

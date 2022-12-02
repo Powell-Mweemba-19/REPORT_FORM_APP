@@ -24,37 +24,34 @@ public class student_dashboard extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        setContentView(R.layout.activity_student_dashboard);
+        setContentView(R.layout.activity_admin_dashbord);
 
-
-
-
-        final DrawerLayout drawerLayout = findViewById(R.id.studentLayout);
+        final DrawerLayout studentLayout = findViewById(R.id.studentLayout);
 
         // code to open the side bar/ side menu
-        findViewById(R.id.imageMenu).setOnClickListener(new View.OnClickListener() {
+     /*   findViewById(R.id.imageViewStudent).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                drawerLayout.openDrawer(GravityCompat.START);
+                studentLayout.openDrawer(GravityCompat.START);
             }
-        });
+        });*/
 
         // displaying icons
-        NavigationView navigationView = findViewById(R.id.navigaionViewStudent);
-        navigationView.setItemIconTintList(null);
+      /*  NavigationView navigationView = findViewById(R.id.navigaionView);
+      * navigationView.setItemIconTintList(null);
 
-
+*/
         //intent
         //Intent intent = new Intent(navigationView.getContext(),Admin_Dashbord.class);
         //startActivity(intent);
         // opening navigation icons once clicked
 
-        NavController navController = Navigation.findNavController(this, R.id.naviHostStudentFragement);
+        NavController navController = Navigation.findNavController(this, R.id.naviHostFragement);
         //findNavController(R.id.myNavHostFragment).navigate(R.id.to_someFragment)
 
 
         // this is the error code if opened it the app we force c;ose
-        NavigationUI.setupWithNavController(navigationView, navController);
+      //  NavigationUI.setupWithNavController(navigationView, navController);
 
     }
 

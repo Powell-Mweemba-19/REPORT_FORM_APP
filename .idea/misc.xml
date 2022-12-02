@@ -41,16 +41,20 @@
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_list_items.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_main.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_main2.xml" value="0.27395833333333336" />
-        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_report_card.xml" value="0.21739130434782608" />
-        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_report_dashboard.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_opening.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_report_card.xml" value="0.4" />
+        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_report_dashboard.xml" value="0.264" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_sign_up.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_sign_up_option.xml" value="0.21739130434782608" />
+        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_student_dash_board.xml" value="0.19021739130434784" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_student_dashboard.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_student_sign_up.xml" value="0.21739130434782608" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_student_signup.xml" value="0.21739130434782608" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_subjects.xml" value="0.2" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/activity_teacher_dashboard.xml" value="0.2477355072463768" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_add__teacher__pupil.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_assign_rolls.xml" value="0.275" />
+        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_generate__report.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_help.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_profile.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_remove__teacher__pupil.xml" value="0.275" />
@@ -58,7 +62,9 @@
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_term1.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_term1_teacher.xml" value="0.2477355072463768" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_term2.xml" value="0.275" />
+        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_term2_teacher.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_term3.xml" value="0.275" />
+        <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/fragment_term3_teacher.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/layout_navigation_header.xml" value="0.275" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/student.xml" value="0.27395833333333336" />
         <entry key="..\:/Users/Powell Mweemba/Desktop/REPORT_FORM_APP/REPORT_FORM/app/src/main/res/layout/student_dashboard.xml" value="0.275" />

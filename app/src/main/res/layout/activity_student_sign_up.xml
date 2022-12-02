@@ -20,7 +20,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
         android:gravity="center"
-        android:text="Student Sign Up"
+        android:text="Teacher Sign Up"
         android:textColor="@color/white"
         android:textSize="35dp"
         android:textStyle="bold" />
@@ -43,7 +43,7 @@
         android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/lastName"
+        android:id="@+id/Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/firstName"
@@ -63,7 +63,7 @@
         android:id="@+id/signUpPasswordEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/lastName"
+        android:layout_below="@+id/Email"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"

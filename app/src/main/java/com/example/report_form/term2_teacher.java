@@ -64,6 +64,8 @@ public class term2_teacher extends Fragment {
         View view =  inflater.inflate(R.layout.fragment_term2_teacher, container, false);
         // Inflate the layout for this fragment
 
+        Button term2 = view.findViewById(R.id.buttonTerm3Teacher);
+;
 
         //term 1 link to subject activity
 

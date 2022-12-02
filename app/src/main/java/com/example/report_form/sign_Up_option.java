@@ -38,7 +38,7 @@ public class sign_Up_option extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //intent to open the student sign up activity
-                Intent intent = new Intent(view.getContext(), StudentSignUp.class);
+                Intent intent = new Intent(view.getContext(), StudentDashBoard.class);
                 startActivity(intent);
             }
         });
@@ -49,7 +49,7 @@ public class sign_Up_option extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //intent to open the teacher sign up activity
-                Intent intent = new Intent(view.getContext(), signUp.class);
+                Intent intent = new Intent(view.getContext(),  MainActivity.class);
                 startActivity(intent);
             }
         });

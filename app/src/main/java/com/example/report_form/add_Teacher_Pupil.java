@@ -21,7 +21,7 @@ import java.util.zip.Inflater;
 public class add_Teacher_Pupil extends Fragment {
 
     //Button for add pupil and teacher
-   // private Button add_teacher, add_pupil;
+    // private Button add_teacher, add_pupil;
 
  /* // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -78,17 +78,17 @@ public class add_Teacher_Pupil extends Fragment {
 
 
         // function will be adding pupils to the database once the button has been clicked
-       Button  add_teacher =  view.findViewById(R.id.addTeachers);
+        Button add_teacher = view.findViewById(R.id.addTeachers);
 
-               add_teacher.setOnClickListener(new View.OnClickListener() {
-                   @Override
-                   public void onClick(View view) {
-                       Toast.makeText(getActivity(), "Teachers added", Toast.LENGTH_SHORT).show();
-                   }
-               });
+        add_teacher.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity(), "Teachers added", Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
-               // function will be adding pupils to the database once the button has been clicked
+        // function will be adding pupils to the database once the button has been clicked
         Button add_pupil = view.findViewById(R.id.addPupils);
 
         add_pupil.setOnClickListener(new View.OnClickListener() {
@@ -101,7 +101,6 @@ public class add_Teacher_Pupil extends Fragment {
 
         return view;
     }
-
 
 
 }

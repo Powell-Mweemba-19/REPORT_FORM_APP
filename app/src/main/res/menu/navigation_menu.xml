@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item
+   <!-- <item
         android:id="@+id/menuProfile"
         android:icon="@drawable/profile"
         android:title="Profile" />
@@ -26,7 +26,7 @@
         android:id="@+id/menuReport"
         android:icon="@drawable/graph_report"
         android:title="Generate Report" />
-
+-->
     <item
         android:title="Settings">
 
